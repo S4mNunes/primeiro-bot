@@ -10,14 +10,14 @@ driver.get("https://www.linkedin.com/login")
 # Login no LinkedIn
 username = driver.find_element(By.ID, "username")
 password = driver.find_element(By.ID, "password")
-username.send_keys("samnunes@outlook.com.br")
-password.send_keys("Murimel100319@!")
+username.send_keys("email")
+password.send_keys("password")
 password.send_keys(Keys.RETURN)
 
 time.sleep(5)
 
 # Vai pra página de busca de empregos
-driver.get("https://www.linkedin.com/jobs/search/?currentJobId=4204057070&keywords=Desenvolvedor%20python&origin=BLENDED_SEARCH_RESULT_NAVIGATION_SEE_ALL&originToLandingJobPostings=4204057070%2C4204936264%2C4206625622")
+driver.get("LINK_DA_PAGINA_JOB")
 
 time.sleep(5)
 
